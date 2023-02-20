@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to left, #100126, #0f0025);
+  color: white;
+
+  .chatBot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    background-color: red;
+  }
+}
